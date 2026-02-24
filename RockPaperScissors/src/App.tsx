@@ -11,7 +11,6 @@ function App() {
       <button onClick={()=>setChoose("Rocky")}>Rock</button>
       <button onClick={()=>setChoose("Paper")}>Paper</button>
       <button onClick={()=>setChoose("Scissors")}>Scissors</button>
-      <div className="bought"></div>
     </div>
   )
 }

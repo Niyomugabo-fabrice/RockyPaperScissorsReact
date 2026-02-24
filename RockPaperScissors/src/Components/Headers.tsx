@@ -1,3 +1,4 @@
+import "./Headers.css"
 export default function Headers()
 {
     return(
