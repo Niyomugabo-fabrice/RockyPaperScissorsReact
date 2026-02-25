@@ -3,13 +3,15 @@ import './App.css'
 import Headers from "./Components/Headers"
 import Rock from "./Components/Rock"
 import Paper from "./Components/Paper"
-import Scissors from ".Components/Scissors"
+import Scissors from "./Components/Scissors"
+import Timer from "./Components/Timer"
 
 function App() {
   const [choose, setChoose] = useState("Choose One")
   return (
     <div className="main">
       <Headers/>
+      <Timer/>
       <button onClick={()=>setChoose("ROCK")}>ROCK</button>
       <button onClick={()=>setChoose("PAPER")}>PAPER</button>
       <button onClick={()=>setChoose("SCISSORS")}>SCISSORS</button>
